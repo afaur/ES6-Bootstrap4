@@ -4,18 +4,24 @@ The css file is precompiled and included manually.
 - Look inside the src folder for changing any js.
 - Edit the files in the public directory for html or css changes.
 
-# Install all the dependencies.
+### Install all the dependencies.
+```
 npm install
-
-# For building and serving
 npm install -g gulp
 ```
-### Running in the browser
-```bash
-gulp build
-gulp serve
 
-# If you wanna Gulp to re-build on every change...
+### For building
+```
+gulp build
+```
+
+### Running in the browser
+```
+gulp serve
+```
+
+### If you wanna Gulp to re-build on every change...
+```
 gulp watch
 ```
 
