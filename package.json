@@ -2,6 +2,11 @@
   "name": "es6-6to5-browserify-boilerplate",
   "version": "0.0.0",
   "description": "A repo to play with ES6++",
+  "scripts": {
+    "build": "./node_modules/gulp/bin/gulp.js build",
+    "watch": "./node_modules/gulp/bin/gulp.js watch",
+    "serve": "./node_modules/gulp/bin/gulp.js serve"
+  },
   "homepage": "https://github.com/thoughtram/es6-6to5-browserify-boilerplate",
   "repository": {
     "type": "git",
@@ -15,11 +20,14 @@
     "browser-sync": "^1.7.1",
     "browserify": "^6.3.3",
     "gulp": "~3.8.10",
+    "gulp-copy": "0.0.2",
     "gulp-rename": "^1.2.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
     "lodash": "^2.4.1",
     "rimraf": "~2.2.8",
-    "watchify": "^2.1.1",
-    "vinyl-source-stream": "^1.0.0"
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.1.1"
   },
   "author": "Christoph Burgdorf <christoph@thoughtram.io>",
   "license": "MIT"
