@@ -1,28 +1,48 @@
 # This uses ES6 + bootstrap v4-alpha
-The js portion is hooked into the build process.
-The css file is precompiled and included manually.
-- Look inside the src folder for changing any js.
-- Edit the files in the public directory for html or css changes.
+- Change files in the `src` folder.
+- Build using gulp (`gulp build` or `npm run build`)
+- Serve the public folder for testing (`gulp serve` or `npm run serve`)
+- Optional: use `gulp watch` or `npm run watch`
+- Profit?
 
-### Install all the dependencies.
+### Install all the dependencies
 ```
 npm install
+```
+
+### Optional: install gulp globally
+```
 npm install -g gulp
 ```
 
-### For building
+### For building (global gulp)
 ```
 gulp build
 ```
 
-### Running in the browser
+### For building
+```
+npm run build
+```
+
+### Running in the browser (global gulp)
 ```
 gulp serve
 ```
 
-### If you wanna Gulp to re-build on every change...
+### Running in the browser
+```
+npm run serve
+```
+
+### If you wanna Gulp to re-build on every change... (global gulp)
 ```
 gulp watch
+```
+
+### If you wanna Gulp to re-build on every change...
+```
+npm run watch
 ```
 
 ### WTF is ES6?
